@@ -1,0 +1,204 @@
+@keyframes animation_test{
+	from{
+        background-image: url(https://media.comicbook.com/2017/10/arrow-6-1038014-1280x0.jpg );
+        height: 600px;
+        width: 982px;
+	}
+	to{
+        background-image: url(https://blogdesuperheroes.es/wp-content/plugins/BdSGallery/BdSGaleria/40070.jpg) ;
+        height: 200px;
+        width: 982px;
+	}
+}
+@keyframes color{
+    from{
+        border: #05668D solid;
+    }
+    to{
+        border: seagreen solid;
+    }
+}
+
+@keyframes girar{
+	from{
+		transform: rotate(-45deg);
+	}
+	to{
+		transform: rotate(45deg);
+    }
+    
+}
+@keyframes girar2{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+    }
+    
+}
+@keyframes girar3{
+	from{
+        
+		transform: rotate(-10deg);
+	}
+	to{
+		transform: rotate(10deg);
+    }
+    
+}
+@keyframes label-animation{
+	from{
+		transform: rotate(0deg);
+		margin-left: 0;
+	}
+	to{
+		transform: rotate(180deg);
+		margin-left: 85vw;
+	}
+}
+
+.label-container{
+	width: 100%;
+	padding: 1rem;
+	box-sizing: border-box;
+}
+
+.label{
+
+	width: 64px;
+	background-color: #D6F7A3;
+	color: #05668D;
+	font-size: 1.3rem;
+	padding: 1rem;
+	border-radius: 20px;
+	text-align: center;
+	animation-name: label-animation;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate; 
+}
+
+.loader-doble{
+	
+	animation: girar2 2s ease-in-out;
+
+}
+
+.loader{
+	width: 200px;
+	height: 300px;
+	border: 7px solid #05668D;
+    border-top: 7px solid #F1E8B8;
+    border-bottom: 7px solid #F1E8B8;
+    border-radius: 0%;
+    animation: girar 2s linear infinite;
+    animation-direction: alternate;
+    margin-top: -30px;
+    margin-left: 200px;
+
+}
+.esc{
+
+
+    animation: girar3 4s linear infinite;
+    animation-direction: alternate;
+
+}
+
+.animada{
+	width: 982px;
+	background-image: url(https://blogdesuperheroes.es/wp-content/plugins/BdSGallery/BdSGaleria/40070.jpg);
+	color: white;
+	text-align: center;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation-name: animation_test;
+	animation-duration: 2s;
+	margin-left: 220px;
+
+
+}
+.P1{
+    background-color: #007EA7;
+    width: 600px;
+    height: 200px;
+    border-radius: 30px;
+    margin-left: 500px;
+    margin-top: -260PX;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: justify;
+    font-family: Arial;
+
+}
+.p2{
+    color: wheat;
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: justify;
+    font-family: Arial;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.batiz{
+    height: 200px;
+    width: 200px;
+    margin-left: 800px;
+    margin-top: -220px;
+}
+.id,.id2,.ac{
+    margin-left: 250px;
+    color: wheat;
+    text-align: center;
+    font-family: Arial;
+    font-size: 1rem;
+    height: 100px;
+    width: 200px;
+    border: 15px  solid;
+    border-radius: 20px;
+    margin-top: 30px;
+    animation: color linear infinite;
+    animation-duration: 2s ;
+	animation-direction: alternate;
+}
+.id2{
+    height: 220px;
+    text-align: justify;
+    width: 330px;
+    margin-top: -80px;
+
+	
+
+}
+.ac{
+    text-align: justify;
+    height: 170px;
+    margin-left: 900px;
+    margin-top: -100px;
+}
+.f{
+    margin-top: 100px;
+    background-color: #05668D;
+    height: 150px;
+    
+}
+.f2,.f1{
+    color: white;
+    font-family: Arial;
+    font-size: 1rem;
+    text-align: justify;
+    height: 90px;
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+.f1{
+    margin-left: 800px;
+    margin-top: -100px;
+}
